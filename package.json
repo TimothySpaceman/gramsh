@@ -1,0 +1,35 @@
+{
+  "name": "gramsh",
+  "version": "0.1.0",
+  "description": "TUI Telegram Client",
+  "author": "TimothySpaceman",
+  "license": "ISC",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimothySpaceman/gramsh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TimothySpaceman/gramsh/issues"
+  },
+  "homepage": "https://github.com/TimothySpaceman/gramsh#readme",
+  "type": "module",
+  "bin": {
+    "gramsh": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npm run build && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
